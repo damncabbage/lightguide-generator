@@ -1,10 +1,16 @@
-My engineering project notebook
+A fork of [https://github.com/Poofjunior/jupyter_notebooks](Poofjunior/jupyter_notebooks).
 
-## Installation Requirements:
-
-Most of these notebooks require:
+Installation:
 
 ```
-sympy
-numpy
+python -mvenv venv
+. venv/bin/activate # handled by .envrc / direnv
+
+pip install jupyterlab sympy numpy scipy drawsvg matplotlib
+```
+
+To run:
+
+```
+jupyter lab
 ```
